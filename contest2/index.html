@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest2-Dashboard</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="left-container">
+            <div class="left-header-top">
+                <h1 class="headings">Staking offerings</h1>
+                <div class="utilities-container">
+                    <ul class="staking-routes">
+                        <li class="route">Locked Staking</li>
+                        <li class="route">Defi Staking</li>
+                    </ul>
+                    <div class="fraction">01/1</div>
+                    <div class="active">Active v</div>
+                </div>
+            </div>
+            <div class="stacking-grid">
+                <div class="cardano">
+                    <div class="hero">
+                        <div class="hero-title">
+                            <img src="./assets/images/cardano-ada-logo.svg" alt="ada">
+                            <div>
+                                <h2 class="title">Cardano</h2>
+                                <p class="abb">ADA</p>
+                            </div>
+                        </div>
+                        <div class="apy">
+                            <h3 class="apy-text">APY</h3>
+                            <p class="apy-value">8.65%</p>
+                        </div>
+                    </div>
+                    <div class="apy-container">
+                        <div class="apy-percentage">30.45%</div>
+                        <div class="apy-title">Annual Percentage Yield</div>
+                    </div>
+                    <div class="min-stake-container">
+                        <div class="min-stake-percentage">100 ADA</div>
+                        <div class="min-stake-title">Minimum Stake</div>
+                    </div>
+                    <div class="button-container">
+                        <button class="stake-button">Stake Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="hero">
+                        <div class="hero-title">
+                            <img src="./assets/images/ontology-ont-logo.svg" alt="ada">
+                            <div>
+                                <h2 class="title">Ontology</h2>
+                                <p class="abb">ONT</p>
+                            </div>
+                        </div>
+                        <div class="apy">
+                            <h3 class="apy-text">APY</h3>
+                            <p class="apy-value">7.46%</p>
+                        </div>
+                    </div>
+                    <div class="stake">
+                        <div class="min-stake-container">
+                            <div class="min-stake-title">Min Stake</div>
+                            <div class="min-stake-percentage">100 ONT</div>
+                        </div>
+                        <div class="button-container2">
+                            <button class="stake-button2">Stake Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="hero">
+                        <div class="hero-title">
+                            <img id="solona" src="./assets/images/solana-sol-logo.svg" alt="ada">
+                            <div>
+                                <h2 class="title">Solona</h2>
+                                <p class="abb">SOL</p>
+                            </div>
+                        </div>
+                        <div class="apy">
+                            <h3 class="apy-text">APY</h3>
+                            <p class="apy-value">12.66%</p>
+                        </div>
+                    </div>
+                    <div class="stake">
+                        <div class="min-stake-container">
+                            <div class="min-stake-title">Min Stake</div>
+                            <div class="min-stake-percentage">8 ONT</div>
+                        </div>
+                        <div class="button-container2">
+                            <button class="stake-button2">Stake Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="hero">
+                        <div class="hero-title">
+                            <img id="polkadot" src="./assets/images/polkadot-new-dot-logo.svg" alt="ada">
+                            <div>
+                                <h2 class="title">Polkadot</h2>
+                                <p class="abb">DOT</p>
+                            </div>
+                        </div>
+                        <div class="apy">
+                            <h3 class="apy-text">APY</h3>
+                            <p class="apy-value">24.50%</p>
+                        </div>
+                    </div>
+                    <div class="stake">
+                        <div class="min-stake-container">
+                            <div class="min-stake-title">Min Stake</div>
+                            <div class="min-stake-percentage">5 DOT</div>
+                        </div>
+                        <div class="button-container2">
+                            <button class="stake-button2">Stake Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="hero">
+                        <div class="hero-title">
+                            <img id="xrp" src="./assets/images/xrp-xrp-logo.svg" alt="ada">
+                            <div>
+                                <h2 class="title">XRP</h2>
+                                <p class="abb">XRP</p>
+                            </div>
+                        </div>
+                        <div class="apy">
+                            <h3 class="apy-text">APY</h3>
+                            <p class="apy-value">15.47%</p>
+                        </div>
+                    </div>
+                    <div class="stake">
+                        <div class="min-stake-container">
+                            <div class="min-stake-title">Min Stake</div>
+                            <div class="min-stake-percentage">10 ONT</div>
+                        </div>
+                        <div class="button-container2">
+                            <button class="stake-button2">Stake Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="left-header-center">
+                <h1 class="headings">Rewards Query</h1>
+            </div>
+            <form class="rewards-grid">
+                <div class="rewards-query-value-container">
+                    <label class="rewards-query-label" for="stake">Staked Assets</label>
+                    <input class="rewards-query-input" type="text" name="stake" id="stake" value="Ontology">
+                </div>
+                <div class="rewards-query-value-container">
+                    <label class="rewards-query-label" for="amount">Stake Amount</label>
+                    <input class="rewards-query-input" type="text" name="amount" id="amount" value="3000025.45 ONT">
+                </div>
+                <div class="rewards-query-value-container">
+                    <label class="rewards-query-label" for="period">Stake Period</label>
+                    <input class="rewards-query-input" type="text" name="period" id="period" value="6 Month">
+                </div>
+                <div class="rewards-query-value-container">
+                    <label class="rewards-query-label" for="rewards">Estimated Rewards</label>
+                    <input class="rewards-query-input" type="text" name="rewards" id="rewards" value="400025015 ONT">
+                </div>
+            </form>
+            <div class="left-header-bottom">
+                <h1 class="headings">Staking Activation</h1>
+            </div>
+            <form class="staking-activation-container" action="">
+                <div class="sa-left">
+                    <div class="left-groups">
+                        <label for="select-asset">Select Asset</label>
+                        <div class="select-container">
+                            <img src="./assets/Images/ontology-ont-logo.svg" alt="">
+                            <select type="text" id="select-asset" name="select-asset">
+                                <option value="ontology">Ontology</option>
+                                <option value="solana">Solana</option>
+                                <option value="polkadot">Polkadot</option>
+                                <option value="xrp">XRP</option>
+                                <option value="ada">Cardano</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="left-groups">
+                        <label for="lookup-period">Lookup Period</label>
+                        <div class="select-container">
+                            <select type="text" id="lookup-period" name="lookup-period">
+                                <option value="ontology">6 Months</option>
+                                <option value="solana">12 Months</option>
+                                <option value="polkadot">2 Years</option>
+                                <option value="xrp">5 Years</option>
+                                <option value="ada">10 Years</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="left-groups">
+                        <label for="stake-amount">Amount to Stake</label>
+                        <div class="select-container">
+                            <select type="text" id="stake-amount" name="stake-amount">
+                                <option value="30065.34">30065.34 ONT</option>
+                                <option value="solana">Solana</option>
+                                <option value="polkadot">Polkadot</option>
+                                <option value="xrp">XRP</option>
+                                <option value="ada">Cardano</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="left-groups">
+                        <label for="wallet-address">Stake Validator</label>
+                        <div class="select-container">
+                            <select type="text" id="stake-validator" name="select-asset">
+                                <option value="pos-blockchain">PoS Blockchain</option>
+                                <option value="solana">Solana</option>
+                                <option value="polkadot">Polkadot</option>
+                                <option value="xrp">XRP</option>
+                                <option value="ada">Cardano</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="left-groups">
+                        <label for="wallet-address">Reward Claiming</label>
+                        <div class="select-container">
+                            <select type="text" id="reward-claiming" name="select-asset">
+                                <option value="6 Months">6 Months</option>
+                                <option value="solana">Solana</option>
+                                <option value="polkadot">Polkadot</option>
+                                <option value="xrp">XRP</option>
+                                <option value="ada">Cardano</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="left-groups">
+                        <h2 class="custom-staking">Custom Staking</h2>
+                    </div>
+                </div>
+                <div class="sa-right">
+                    <div class="summary">Summary</div>
+                    <div class="summary-data">
+                        <div class="stake-date">
+                            <h2>Stake Date</h2>
+                            <p>2024-05-12 05:32</p>
+                        </div>
+                        <div class="interest-period">
+                            <h2>Interest Period</h2>
+                            <p>6th Month</p>
+                        </div>
+                        <div class="stake-end-date">
+                            <h2>Stake End Date</h2>
+                            <p>2024-08-15 05:32</p>
+                        </div>
+                        <div class="stake-date">
+                            <h2>Redemption Date</h2>
+                            <p>2024-08-20</p>
+                        </div>
+                        <div class="stake-date">
+                            <h2>Est. APY</h2>
+                            <p>25.12%</p>
+                        </div>
+                        <div class="stake-date">
+                            <h2>Estimate Interest</h2>
+                            <p>4025.506 ONT</p>
+                        </div>
+                    </div>
+                    <div class="b-container">
+                        <button class="cancel-button">Cancel Staking</button>
+                        <button class="approve-button">Approve Staking</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="right-container">
+            <div class="right-header-top">
+                <h1 class="headings">Staking Wallet</h1>
+                <div class="usdt">USDT v</div>
+            </div>
+            <div class="wallet">
+                <div class="wallet-container-1">
+                    <div class="av-balance">
+                        <h2 class="avbl-bal">AVBL. BALANCE</h2>
+                        <p class="balance">68,750,904.45 USDT</p>
+                    </div>
+                    <img class="wallet-image" src="./assets/Images/image.png" alt="">
+                </div>
+                <div class="wallet-container-2">
+                    <div class="staked">
+                        <h3 class="staked-title">Staked</h3>
+                        <p class="staked-amt">2,32,64,8927 USDT</p>
+                    </div>
+                    <div>
+                        <h3 class="reward-claimed-title">Reward claimed</h3>
+                        <p class="reward-claimed-amt">1,32,64,8927 USDT</p>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button class="top-up">Top up wallet</button>
+                    <button class="transfer">Transfer</button>
+                </div>
+            </div>
+            <div class="right-header-center">
+                <h1 class="headings">Staking Reward</h1>
+                <img class="maximise" src="./assets/Images/maximize.png" alt="maximise">
+            </div>
+            <form class="staking-reward-container">
+                <div class="staked-asset-selector">
+                    <label class="staked-asset" for="staked-asset">Staked Asset</label>
+                    <select id="staked-asset" name="staked-asset">
+                        <option value="ONT">ONT</option>
+                        <option value="SOL">SOL</option>
+                        <option value="DOT">DOT</option>
+                        <option value="XRP">XRP</option>
+                    </select>
+                </div>
+                <div class="claim-section">
+                    <div>
+                        <h2>Rewards to be claimed</h2>
+                        <p>12.15 ONT</p>
+                    </div>
+                    <div>
+                        <h2>Next Claim Available In</h2>
+                        <p>3D : 4H : 15 Min</p>
+                    </div>
+                </div>
+                <div class="claim-btn-container">
+                    <button class="claim-btn">Claim Rewards</button>
+                </div>
+            </form>
+            <div class="right-header-bottom">
+                <h1 class="headings">Interests Statistics</h1>
+                <div class="period">
+                    <span class="days">D</span>
+                    <span class="week">W</span>
+                    <span class="month">M</span>
+                    <span class="year">Y</span>
+                </div>
+            </div>
+            <div class="interests-chart">
+                <img src="./assets/Images/graph.jpg" alt="chart">
+            </div>
+    
+        </div>
+    </div>
+</body>
+</html>
